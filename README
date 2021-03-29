@@ -77,7 +77,7 @@ Source
 3. EXECUTING
 
 run the program
-> rosrun ltl2ba -f 'formula'
+> rosrun ltl2ba ltl2ba -f 'formula'
 
 The formula is an LTL formula, and may contain propositional symbols, 
 boolean operators, temporal operators, and parentheses.
@@ -107,7 +107,7 @@ The result is a never claim in Promela that can be given to the
 Spin model checker to verify properties on a system.
 
 run the command
-> ./ltl2ba
+> rosrun ltl2ba ltl2ba
 to see the possible options for executing the program
 
 4. CHANGES IN VERSION 1.1
