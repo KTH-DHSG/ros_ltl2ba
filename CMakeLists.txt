@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5)
+ccmake_minimum_required(VERSION 3.5)
 project(ltl2ba)
 
 # Find dependencies
@@ -52,9 +52,5 @@ install(TARGETS
     main
     DESTINATION lib/${PROJECT_NAME}/
   )
-
-# Install the headers
-install(DIRECTORY include/
- DESTINATION include)
 
 ament_package()
