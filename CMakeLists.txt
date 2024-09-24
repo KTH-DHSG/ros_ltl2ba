@@ -1,4 +1,4 @@
-ccmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.5)
 project(ltl2ba)
 
 # Find dependencies
